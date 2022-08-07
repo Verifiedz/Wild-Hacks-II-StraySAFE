@@ -1,8 +1,7 @@
-# StraySAFE
+<h1>StraySAFE</h1>
 Got a missing pet? Are you worried or stressed? Well do not fear, StraySAFE is here!
-
+<hr/>
 <img src=https://cdn.discordapp.com/attachments/1002230330662584430/1005150625446772946/unknown.png width="500">
-
 <hr/>
 
 <strong><big><u>Description:</u>📝</big></strong><br/>
