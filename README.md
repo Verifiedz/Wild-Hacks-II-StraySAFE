@@ -1,4 +1,4 @@
-<h1><span style="color:red">S</span>tray<span style="color:red">S</span>AFE</h1>
+<span style="color:red">S</span>tray<span style="color:red">S</span>AFE
 Got a missing pet? Are you worried or stressed? Well do not fear, StraySAFE is here!
 
 <strong><big>Description:</big></strong><br/>
