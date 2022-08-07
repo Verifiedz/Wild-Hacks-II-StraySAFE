@@ -40,4 +40,4 @@ The audience is an expansive ideology, at first StraySAFE caters towards lawful 
 In order for this to be a functional website,  it requires of mix of developing using frontend/backend programming languages. For the implementation of StraySAFE we used HTML CSS, Twilio, and JavaScript. 
 
 By: 
-Saad Wasim(Verifiedz), Gaurav Divecha(gdivecha), Zain Qurashi(Zainnn15), Rafae Adil()
+Saad Wasim(Verifiedz), Gaurav Divecha(gdivecha), Zain Qurashi(Zainnn15), Rafae Adil(rafae0987)
