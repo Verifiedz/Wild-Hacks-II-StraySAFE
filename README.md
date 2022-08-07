@@ -14,6 +14,7 @@ When it came to the development of StraySAFE, our goal was to aspire to create a
 
 <strong><big>How we built it:🤷‍♂️</big></strong><br/>
 Front end: used HTML, CSS, Javascript to create the layout of the website
+
 Back end: we used localstorage as a way to store account and pet data in the web and use that data to access the website
 
 
