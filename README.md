@@ -1,8 +1,6 @@
 <h1>StraySAFE</h1>
 Got a missing pet? Are you worried or stressed? Well do not fear, StraySAFE is here!
-<hr/>
 <img src=https://cdn.discordapp.com/attachments/1002230330662584430/1005150625446772946/unknown.png width="500">
-<hr/>
 
 <strong><big><u>Description:</u>📝</big></strong><br/>
  it takes </color> a long time for a team to coordinate effectively when faced with a limit interval of time. However, our team was able to form a compressive Idea that can be the resolution to our previously inquired dilemma of pets “going missing”. We came up with developing a website(StraySAFE) that may be used by all pet owners to be able to report missing pets in an easy and quick manner. the website will allow for registration for not only those who wish to report, but for those to respond to search requests. We implemented a situation for reporting animals that allows for any individual utilizing StraySpace to find pets that went missing near their location or the location of the post. Since there is no stable system available, we wish to be the first to improve and help rescue pets from everywhere. A system with a focus that eases the worries of owners and brings a more controlled environment for pets to live in.
