@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Inter:wght@300;700&display=swap');
+
+html, body {
+    background-color:#575756 ;
+    width:100%;
+    font-family:'Basic', sans-serif;
+    color:#D9D9D9;
+    /* overflow: hidden; */
+    margin-left: 1px;
+    height:100%;
+}
+
+.container{
+    background-color: #414141;
+    height:100px;
+    margin:47.5px 20px;
+    border-radius:100px;
+    margin-bottom:55px;
+}
+
+.Part{
+    background-color: #414141;
+    height:264px;
+    margin:10px 20px;
+    border-radius:20px;
+    background-image: url(https://cdn.discordapp.com/attachments/1002230330662584430/1005156239321346118/unknown.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 100px;
+}
+
+.h1 {
+    text-align: left;
+    padding-top: 27.5px;
+    padding-left: 400px;
+}
+
+.p {
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 200px;
+    font-size: 28px;
+}
+
+.h2 {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 400px;
+}
+
+.logo{
+    position: absolute;
+    left: 52.5px;
+    top:12.5px;
+    border-radius:30px;
+    width:120px;
+    border:10px solid #575756;
+    /* float: left;  */
+    /* padding:10px 0; */
+}
+
+nav {
+    position: absolute;
+    left:13% ;
+    top: 40px;
+    width:70%;
+}
+
+nav ul{
+    margin: 0;
+    padding:0; 
+    list-style:none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 10%;
+    padding-top:40px ;
+}
+
+nav a {
+    color: #D9D9D9;
+    text-decoration: none;
+    font-size:26px; 
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color:#575756;
+
+}
+
+
+.alert0 {
+    height: 80px; 
+    width:  80px; 
+    position:absolute;
+    right: 120px ;
+    top: 185px ;
+
+}
+
+.icons{
+    position:absolute;
+    right:-32.5px;
+    top:57.5px;
+    height:auto;
+    width:200px;
+}
+
+#profileIcon{
+    width:80px;
+}
+
+#search{
+    width:50px;
+    padding-right:5px;
+    padding-bottom:15px;
+}
+
+.headerTag{
+    text-align: left;
+    margin-top: -235px;
+    padding-left: 200px;
+}
+
+a{
+    text-decoration:none;
+    color:unset;
+}
+
+.individualPetPhoto{
+    height:223px;
+    border:10px solid #575756;
+    border-radius: 10px;
+    margin-left:10px; 
+    margin-top:10px;
+    width:160px;
+    object-fit: cover;
+}

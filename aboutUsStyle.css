@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Inter:wght@300;700&display=swap');
+
+html, body{
+    background-color: #575756;
+    width:100%;
+    font-family:'Basic', sans-serif;
+    color:#D9D9D9;
+    /* overflow: hidden; */
+    margin-left: -1px;
+}
+
+.headerTag{
+    text-align: left;
+    padding-top: 27.5px;
+    padding-left: 35px;
+}
+
+.one{
+    background-color:#414141;
+    /* width:95%; */
+    height:100px;
+    margin:30px 20px 15px 20px;
+    border-radius:100px;
+
+}
+
+.icons{
+    position:absolute;
+    right:-27.5px;
+    top:40px;
+    height:auto;
+    width:200px;
+}
+
+input[type="radio"]{
+    width:20px;
+}
+
+#profileIcon{
+    width:80px;
+}
+
+#homePageIcon{
+    width:50px;
+    padding-right:5px;
+    padding-bottom:15px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.three{
+    display:flex;
+    height:375px;
+}
+
+.mainBody{
+    margin:30px 5px;
+    height:900px;
+}
+
+.subThree{
+    border-radius:20px;
+    margin:15px;
+    background-color: #414141;
+    width:50%;
+}
+
+h2{
+    text-align:center;
+}
+
+p{
+    margin:0 50px;
+}
+
+hr{
+    /* border:10px; */
+    border-radius: 100px;
+    width:50%;
+    height:2.5px;
+    margin-bottom:30px;
+    background-color: #D9D9D9;
+}
+
+.socials{
+    width:100%;
+    height:100px;
+    background-color: #414141;
+    margin-top: 20px;
+    margin-bottom:-10px;
+    display:block;
+}
+
+.socialIcon{
+    width:60px;
+    padding-top:20px;
+    margin-right:10px;
+}
+
+.socialIcons{
+    position:absolute;
+    right:10px;
+    bottom:-102.5px;
+}
+
+
+.headerTagTwo{
+    padding-top:30px;
+    padding-left: 30px;
+}

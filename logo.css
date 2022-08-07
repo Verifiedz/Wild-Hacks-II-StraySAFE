@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Inter:wght@300;700&display=swap');
+
+html, body{
+    background-color: #575756;
+    width:100%;
+    font-family:'Basic', sans-serif;
+    color:#D9D9D9;
+    /* overflow: hidden; */
+    margin-left: -1px;
+}
+
+.headerTag{
+    text-align: left;
+    padding-top: 27.5px;
+    padding-left: 35px;
+}
+
+.headerTag2{
+    text-align: left;
+    padding-top: 27.5px;
+    padding-left: 35px;
+    border-radius: 100px;
+}
+
+.one{
+    background-color:#414141;
+    /* width:95%; */
+    height:100px;
+    margin:30px 20px;
+    border-radius:100px;
+
+}
+
+.icons{
+    position:absolute;
+    right:-27.5px;
+    top:40px;
+    height:auto;
+    width:200px;
+}
+
+#profileIcon{
+    width:80px;
+}
+
+#homePageIcon{
+    width:50px;
+    padding-right:5px;
+    padding-bottom:15px;
+}
+
+.two{
+    background-color:#414141;
+    /* width:95%; */
+    height:659px;
+    margin:-135px 20px;
+    border-radius:20px;
+}
+
+button{
+    background-color: #414141;
+    height: 70px;
+    width: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 720px;
+}
+
+.toosy{
+    border: 10px solid #D9D9D9;
+    border-radius: 50%; 
+    box-sizing: border-box;
+    width:250px;
+    height:250px;
+    object-fit: cover;
+    margin-left:42%;
+}
+
+.name{
+    margin: auto;
+    display: block;
+}
+
+h2{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.three {
+    border: solid #D9D9D9;
+    margin:30px 50px;
+    border-radius:10px;
+    text-align: left;
+    left: 50%;
+    display:flex;
+}
+.vert{
+    border-left: 6px solid #D9D9D9;
+    height: 365px;
+    width: 250px;
+    margin: -395px 1300px;
+}
+
+.rep{
+    height: 50px;
+}
+
+a{
+    text-decoration:none;
+}
+
+hr{
+    /* border:10px; */
+    border-radius: 100px;
+    width:20%;
+    height:2.5px;
+    margin-bottom:10px;
+    background-color: #D9D9D9;
+    margin-top:10px;
+}
+
+.image{
+    width:100%;
+}
+
+.twoButtons{
+    position:absolute;
+    left:60px;
+    top:320px;
+    width:20px;
+}
+
+/* p,h3{
+    display: inline-block;
+} */
+
+section{
+    padding-left:20px;
+}
+
+section:first-of-type{
+    width:60%;
+    border-right: 5px solid #D9D9D9;
+}
+
+section:last-of-type{
+    padding-left:50px;
+    padding-top:20px;
+    margin-right:70px;
+}

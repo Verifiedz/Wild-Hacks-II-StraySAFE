@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Basic&family=Inter:wght@300;700&display=swap');
+
+html,body{
+    background-color: #575756;
+    width:100%;
+    font-family:'Basic', sans-serif;
+    color:#D9D9D9;
+    overflow: hidden;
+    margin-left: -1px;
+    height:100%;
+}
+
+.one{
+    background-color:#414141;
+    /* width:95%; */
+    height:100px;
+    margin:30px 20px;
+    border-radius:100px;
+
+}
+
+.two{
+    background-color:#414141;
+    /* width:95%; */
+    height:505px;
+    margin:0 auto;
+    border-radius:20px;
+    max-width:600px;
+}
+
+.headerTag{
+    text-align: left;
+    padding-top: 27.5px;
+    padding-left: 35px;
+}
+
+.icons{
+    position:absolute;
+    right:-85px;
+    top:47.5px;
+    height:auto;
+    width:200px;
+}
+
+.heading2{
+    padding-top: 50px;
+    text-align:center;
+}
+
+p{
+    text-align:center;
+    margin:0 100px;
+}
+
+#profileIcon{
+    width:80px;
+}
+
+#homePageIcon{
+    padding:5% 48.5%;
+    width:50px;
+}
+
+#heart{
+    padding:7.5% 30%;
+}
+
+#star{
+    padding:7.5% 40%;
+}
+
+hr{
+    /* border:10px; */
+    border-radius: 100px;
+    width:50%;
+    height:2.5px;
+    margin-bottom:30px;
+    background-color: #D9D9D9;
+}

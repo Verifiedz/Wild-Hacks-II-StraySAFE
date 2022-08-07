@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StraySAFE - Report Missing Page</title>
+    <link href="formFillingPages.css" rel="stylesheet">
+</head>
+<body>
+    <div class="one">
+        <h1 class="headerTag">Report to Owner</h1>
+        <div class="icons">
+            <a href="pet.html" >
+                <img id="homePageIcon" src="https://cdn.discordapp.com/attachments/1002230330662584430/1005155627515002990/unknown.png" alt="Back Button"/>
+            </a>
+            <a href="profile.html">
+                <img id="profileIcon" src="https://cdn.discordapp.com/attachments/1002230330662584430/1005155582535274516/unknown.png" alt="Profile Icon">
+            </a>
+        </div>  
+    </div>
+    <div class="two">
+        <h1 class="headerTag">Seen <span id="pet-name"></span>?</h2></h1>
+        <form action="requestCompleted.html">
+            <section>
+                <fieldset>
+                    <h3>Please fill in your personal information</h3>
+                    <label>Full Name <span class="requiredField">*</span><input class="reporterDescription" name="fullName" placeholder="e.g. Gaurav Divecha" type="text" required minlength="2" maxlength="30"/></label>
+                    <label>Phone Number <span class="requiredField">*</span><input class="reporterDescription" name="phoneNum" placeholder="e.g. 6475612874" type="text" required/></label>
+                    <label>Email Address <span class="requiredField">*</span><input class="reporterDescription" name="personEmail" placeholder="e.g. spiderMonkey@gmail.com" type="email" required/></label>
+                </fieldset>
+                <fieldset>
+                    <h3>Please fill in the information regarding the report</h3>
+                    <label>Report Date <span class="requiredField">*</span><input class="reporterDescription" name="dateReported" type="date" required/></label>
+                    <label>Report Location <span class="requiredField">*</span><input class="reporterDescription" name="locationReported" type="text" placeholder="e.g. A.B. park in Downtown Toronto, near the slides" required/></label>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <label>Notes and Situation
+                        <textarea class="petDescription" name="additionalNotes" rows="14" cols="103" placeholder="  e.g. What is the situation like? Did you simply see it? Do you have possession of it?, etc."></textarea>
+                    </label>
+                </fieldset>
+            </section>
+            <section>
+                <button class="button">REPORT</button>
+            </section>
+        </form>
+    </div>
+    <script src = "Test.js"> 
+    
+    </script> 
+</body>
+</html>

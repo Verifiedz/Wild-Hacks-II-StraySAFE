@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StraySAFE - Report Missing Page</title>
+    <link href="formFillingPages.css" rel="stylesheet">
+</head>
+<body>
+    <div class="one">
+        <h1 class="headerTag">Report Missing</h1>
+        <div class="icons">
+            <a href="home.html" >
+                <img id="homePageIcon" src="https://cdn.discordapp.com/attachments/1002230330662584430/1005155627515002990/unknown.png" alt="Back Button"/>
+            </a>
+            <a href="profile.html">
+                <img id="profileIcon" src="https://cdn.discordapp.com/attachments/1002230330662584430/1005155582535274516/unknown.png" alt="Profile Icon">
+            </a>
+        </div>  
+    </div>
+    <div class="two">
+        <h1 class="headerTag">Report a Lost Pet</h1>
+        <div class="container">
+        <form onsubmit="pet()" method="post" action="receipt.html">
+            <section>
+                <fieldset>
+                    <label>Pet's Name <span class="requiredField">*</span><input class="petDescription" name="petName" id="petname" placeholder="e.g. Loki" type="text" required minlength="2" maxlength="15"/></label>
+                    <label>Type of Animal <span class="requiredField">*</span><input class="petDescription" name="petType" id="animal" placeholder="e.g. Cat" type="text" required/></label>
+                    <label>Color <span class="requiredField">*</span><input class="petDescription" name="petColor" id="color" placeholder="e.g. Gray" type="text" required/></label>
+                    <label>Eye Complexion <span class="requiredField">*</span><input class="petDescription" id="eye" placeholder="e.g. Yellow" name="eyeColor" type="text" /></label>
+                </fieldset>
+                <fieldset>
+                    <label>Breed <span class="requiredField">*</span><input class="petDescription" name="breed" id="breed" type="text" placeholder="e.g. Scottish Fold" required/></label>                
+                    <label>Microchip # <span class="requiredField">*</span><input class="petDescription" name="micochip" id="micro" type="number" min="000000000" max="9999999999" minlength="10" maxlength="10" placeholder="XXXXXXXXXX" required/></label>
+                    <label>Date Lost <span class="requiredField">*</span><input class="petDescription" name="dateLost" id="date" type="date" required/></label>
+                    <label>Location Lost <span class="requiredField">*</span><input class="petDescription" name="locationLost" id="loco" type="text" placeholder="e.g. A.B. park in Downtown Toronto, near the slides" required/></label>
+                </fieldset>
+                <fieldset>
+                    <label>Age <span class="requiredField">*</span><input class="petDescription" name="age" id="age" type="number" min="0" max="100" placeholder="e.g. 10" required/></label>
+                    <br/>
+                    <label>Gender
+                        <br/>
+                        <label class="genderChoice">
+                            <input class="petDescription" name="gender" id="boy" type="radio"/>Male
+                        </label>
+                        <br/>
+                        <br/>
+                        <label class="genderChoice">
+                            <input class="petDescription" name="gender" id="girl" type="radio"/>Female
+                        </label>
+                    </label>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <label>Upload a Photo<input id="chooseFile" class="petDescription" name="photo" type="file" onchange="read(this)" required/></label>
+                </fieldset>
+            </section>
+            <section>
+                <fieldset>
+                    <label>Other Important Information for Reporters
+                        <textarea class="petDescription" name="additionalNotes" rows="14" cols="103" placeholder="  e.g. Distinguishing features or other facts about your pet people may need to know; How to approach the animal, etc."></textarea>
+                    </label>
+                </fieldset>
+            </section>
+            <section>
+                <button class="submit" id="petresult" onsubmit="pet()">SUBMIT</button>
+            </section>
+        </form>
+    </div>
+    <script src="Test.js"></script> 
+</body>
+</html>

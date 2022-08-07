@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> Sign up </title>
+<link rel="stylesheet" href="styles.css">   
+
+</head>
+ 
+<body>
+    <div class="logo">
+        <img src="https://cdn.discordapp.com/attachments/1002230330662584430/1005150625446772946/unknown.png" alt="Logo"/>
+    </div>
+    <div class="container">
+        <form class=" form" id="createAcc" onsubmit="reg()"> 
+            <h1>Sign Up</h1>
+            <h3 class="signup"><span>Already part of StraySAFE?</span> <a class="form_link" href="login.html" id="linklogin">Log in</a></h3>
+            <input style="right: 175px;" class="upput" type="text" name="username" id="username" placeholder="First Name" required>
+            <input style="right: 175px; bottom: 760px;" class="upput" type="text" name="username2" id="username2" placeholder="Last Name" required>
+
+            <input style="left: 175px; bottom: 904px;" class="upput" type="email" name="email" id="email" placeholder="Email Address" required>
+            <input style="left: 175px; bottom: 862px;" class="upput" style="bottom: 770px;" type="password" name="password" id="password" placeholder="Password" required>
+
+            <input style="right: 175px; bottom:825px;" class="upput" type="number" name="Phone" id="Phone" placeholder="Phone Number" required>
+            <input style="left: 175px; bottom: 875px;" class="upput" type="text" name="Address" id="Address" placeholder="123 Street, NA" required>
+            <button style="bottom: 855px;" type="submit" onsubmit="reg()">SIGN UP</button>
+        </form>
+    </div>
+    <div class="footnote upper">
+        <p>
+            2022 StraySafe. All Rights Reserved. By Signing up, I agree to StraySafe's <a href="">Terms of Service</a>
+        </p>
+    </div>
+    <script src="Test.js"></script> 
+</body>
+
+
+</html>
