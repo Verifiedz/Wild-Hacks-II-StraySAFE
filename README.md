@@ -1,5 +1,5 @@
 #<big>StraySAFE</big>
-Got a missing pet? Are you worried or stressed? Well do not fear, StraySAFE is here!
+<strong>Got a missing pet? Are you worried or stressed? Well do not fear, StraySAFE is here!<strong>
 
 <strong><big>Description:</big></strong><br/>
 
