@@ -1,4 +1,4 @@
-<span style="color:red">S</span>tray<span style="color:red">S</span>AFE
+#StraySAFE
 Got a missing pet? Are you worried or stressed? Well do not fear, StraySAFE is here!
 
 <strong><big>Description:</big></strong><br/>
